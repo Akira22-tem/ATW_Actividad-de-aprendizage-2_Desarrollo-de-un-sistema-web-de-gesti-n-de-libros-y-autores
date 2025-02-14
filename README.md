@@ -24,7 +24,7 @@ Este es un sistema web desarrollado en PHP siguiendo el patrón de arquitectura 
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/tuusuario/gestion-libros.git
+   git clone https://github.com/Akira22-tem/ATW_Actividad-de-aprendizage-2_Desarrollo-de-un-sistema-web-de-gesti-n-de-libros-y-autores.git
    ```
 2. **Configurar el entorno local**
    - Asegurarse de tener instalado un servidor local como [XAMPP](https://www.apachefriends.org/es/index.html) o [WAMP](https://www.wampserver.com/).
