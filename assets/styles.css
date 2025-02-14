@@ -1,0 +1,216 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('https://i.ibb.co/jkCtfqtp/japanese-anime-girl-student-train-station-gomr5uz81d5gqeua.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: none;
+}
+
+/* Contenedor principal */
+.container {
+    position: relative;
+    z-index: 1;
+    background-color: rgb(33, 37, 41);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: rgb(33, 37, 41);
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.99);
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.navbar .navbar-brand {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(247, 247, 247) !important;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 0.8rem;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+body {
+    padding-bottom: 30px;
+}
+
+/* Formularios */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+/* Título "Lista de libros" */
+h2.lista-libros, #lista-libros {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tabla de libros */
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #343a40;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+td {
+    background-color: #f8f9fa;
+    color: rgb(33, 37, 41);
+}
+
+tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Botones */
+.btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-delete {
+    background-color: rgb(255, 201, 0);
+}
+
+.btn-edit {
+    background-color: rgb(17, 193, 243);
+}
+
+/* Estilos de enlaces */
+a {
+    color: #353739d1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.modal-content {
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.cancel-button:hover {
+    background-color: #e53935;
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        overflow-x: auto;
+    }
+    .container {
+        padding: 10px;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
